@@ -1,0 +1,24 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+    padding: 2px 16px;
+    margin-left: 20px;
+    
+}
+.role {
+    font-weight: bold;
+    font-size: large;
+}
+.bio {
+    font-weight: bold;
+    font-size: large;
+}
+.besthero {
+     font-weight: bold;
+    font-size: large;
+}
+.Dota2Card {
+    display: flex;
+    height: 700px;
+}
