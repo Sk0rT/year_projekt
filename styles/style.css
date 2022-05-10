@@ -1,33 +1,75 @@
-.Dota2Card {
-    display: flex;
-    height: 700px;
+body {
+    /* background: #000 url(/images/maxresdefault.jpg); */
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-size: 100%;
+    line-height: 139%;
+    margin: 0;
+    padding: 0;
 }
+
+header {
+    height: 120px;
+    width: 100%;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.gamers-list {
+    display: flex;
+    height: 800px;
+    align-items: stretch;
+    margin-bottom: 60px;
+}
+
 .card {
     height: 100%;
     padding: 2px 16px;
     box-sizing: border-box;
     margin-left: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.946);
     transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.67);
+    padding: 15px 20px;
+    border: 1px white solid;
 }
-.card:first-child{
-    margin-left: 0;
+
+.bio ul {
+    list-style-type: none;
+    padding: 0;
 }
-.role {
-    font-weight: bold;
-    font-size: large;
-    
-}
+
+
 .bio {
     font-weight: bold;
     font-size: large;
 }
+
 .besthero {
-     font-weight: bold;
+    font-weight: bold;
     font-size: large;
 }
-.CSGOCard {
-   display: flex;
-    
 
+.osnInfo {
+    text-align: center;
 }
+
