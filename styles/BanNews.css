@@ -27,6 +27,14 @@ h1 {
     line-height: 139%;
 }
 
+img {
+    width: 800px;
+    height: 500px;
+    
+    
+    
+}
+
 a.button {
     width: 60px;
     margin: auto;
